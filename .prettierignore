@@ -1,0 +1,12 @@
+.husky
+.env
+.prettierignore
+.github
+.eslintignore
+.next
+dist
+build
+node_modules
+Dockerfile
+yarn.lock
+package-lock.json

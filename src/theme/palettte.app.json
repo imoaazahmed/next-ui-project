@@ -1,0 +1,137 @@
+[
+  {
+    "paletteName": "gray",
+    "swatches": [
+      {
+        "name": "50",
+        "color": "F7FAFC"
+      },
+      {
+        "name": "100",
+        "color": "EDF2F7"
+      },
+      {
+        "name": "200",
+        "color": "E2E8F0"
+      },
+      {
+        "name": "300",
+        "color": "CBD5E0"
+      },
+      {
+        "name": "400",
+        "color": "A0AEC0"
+      },
+      {
+        "name": "500",
+        "color": "718096"
+      },
+      {
+        "name": "600",
+        "color": "4A5568"
+      },
+      {
+        "name": "700",
+        "color": "2D3748"
+      },
+      {
+        "name": "800",
+        "color": "1A202C"
+      },
+      {
+        "name": "900",
+        "color": "171923"
+      }
+    ]
+  },
+  {
+    "paletteName": "red",
+    "swatches": [
+      {
+        "name": "50",
+        "color": "FCE9EB"
+      },
+      {
+        "name": "100",
+        "color": "F7C0C6"
+      },
+      {
+        "name": "200",
+        "color": "F198A2"
+      },
+      {
+        "name": "300",
+        "color": "EC6F7D"
+      },
+      {
+        "name": "400",
+        "color": "E64759"
+      },
+      {
+        "name": "500",
+        "color": "E03E52"
+      },
+      {
+        "name": "600",
+        "color": "B4182A"
+      },
+      {
+        "name": "700",
+        "color": "87121F"
+      },
+      {
+        "name": "800",
+        "color": "5A0C15"
+      },
+      {
+        "name": "900",
+        "color": "2D060A"
+      }
+    ]
+  },
+  {
+    "paletteName": "blue",
+    "swatches": [
+      {
+        "name": "50",
+        "color": "B9D3E2"
+      },
+      {
+        "name": "100",
+        "color": "7498BF"
+      },
+      {
+        "name": "200",
+        "color": "345591"
+      },
+      {
+        "name": "300",
+        "color": "293E82"
+      },
+      {
+        "name": "400",
+        "color": "1B2363"
+      },
+      {
+        "name": "500",
+        "color": "181556"
+      },
+      {
+        "name": "600",
+        "color": "160C45"
+      },
+      {
+        "name": "700",
+        "color": "130537"
+      },
+      {
+        "name": "800",
+        "color": "100235"
+      },
+      {
+        "name": "900",
+        "color": "0D012B"
+      }
+    ]
+  }
+]
