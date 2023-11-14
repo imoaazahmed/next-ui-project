@@ -1016,7 +1016,7 @@ module.exports = {
         borderWidth: {
           small: '1px',
           medium: '1px',
-          large: '1px',
+          large: '3px',
         },
       },
       themes: {
