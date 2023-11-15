@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const Theme = {
   key: 'theme',
@@ -13,6 +13,14 @@ export const useThemeMode = (defaultThemeMode?: ThemeMode) => {
     const storedTheme = localStorage.getItem(Theme.key) as ThemeMode | null;
     return storedTheme || (defaultThemeMode ?? Theme.light);
   });
+
+  const isDark = useMemo(() => {
+    return currentMode === Theme.dark;
+  }, [currentMode]);
+
+  const isLight = useMemo(() => {
+    return currentMode === Theme.light;
+  }, [currentMode]);
 
   const setThemeMode = (themeMode: ThemeMode) => {
     localStorage.setItem(Theme.key, themeMode);
@@ -33,5 +41,5 @@ export const useThemeMode = (defaultThemeMode?: ThemeMode) => {
   const setDarkMode = () => setThemeMode(Theme.dark);
   const toggleThemeMode = () => (currentMode === Theme.dark ? setLightMode() : setDarkMode());
 
-  return { currentMode, setLightMode, setDarkMode, toggleThemeMode };
+  return { currentMode, isDark, isLight, setLightMode, setDarkMode, toggleThemeMode };
 };
